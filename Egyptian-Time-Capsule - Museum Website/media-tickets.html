@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Media & Tickets - Egyptian Time Capsule</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo-container">
+        <img src="/Images/nav bar/Logo.png" alt="Egyptian Time Capsule Logo" class="museum-logo">
+        <h1>Egyptian Time Capsule</h1>
+      </div>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="media-tickets.html" class="active">Media & Tickets</a></li>
+          <li><a href="whats-on.html">What's On</a></li>
+          <li class="dropdown">
+            <a href="exhibits.html">Exhibits</a>
+            <ul class="dropdown-menu">
+              <li><a href="featured-collections.html">Featured Collections</a></li>
+              <li><a href="artifact-categories.html">Artifact Categories</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="learning-hub.html">Learning Hub</a>
+            <ul class="dropdown-menu">
+              <li><a href="academic-trips.html">Academic Trips</a></li>
+              <li><a href="articles.html">Articles</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="plan-your-visit.html">Plan Your Visit</a>
+            <ul class="dropdown-menu">
+              <li><a href="hours-admission.html">Hours & Admission</a></li>
+              <li><a href="museum-map.html">Museum Map</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero media-hero">
+      <div class="hero-content">
+        <h2>Media & Tickets</h2>
+        <div class="hero-divider"></div>
+        <p>Experience the wonders of ancient Egypt through our immersive exhibits</p>
+      </div>
+    </section>
+
+    <!-- Ticket Options Section -->
+    <section class="ticket-options">
+      <div class="container">
+        <h2>Choose Your Journey</h2>
+        <div class="tickets-grid">
+          <div class="ticket-card">
+            <div class="ticket-header">
+              <i class="fas fa-ticket-alt"></i>
+              <h3>General Admission</h3>
+              <div class="price">$25</div>
+            </div>
+            <ul class="ticket-features">
+              <li><i class="fas fa-check"></i> Access to all permanent exhibits</li>
+              <li><i class="fas fa-check"></i> Guided audio tour</li>
+              <li><i class="fas fa-check"></i> Museum map</li>
+              <li><i class="fas fa-check"></i> Free Wi-Fi access</li>
+            </ul>
+            <a href="#book-tickets" class="cta-button">Book Now</a>
+          </div>
+
+          <div class="ticket-card featured">
+            <div class="ticket-header">
+              <i class="fas fa-crown"></i>
+              <h3>Premium Experience</h3>
+              <div class="price">$45</div>
+            </div>
+            <ul class="ticket-features">
+              <li><i class="fas fa-check"></i> All General Admission benefits</li>
+              <li><i class="fas fa-check"></i> Special exhibitions access</li>
+              <li><i class="fas fa-check"></i> Skip-the-line entry</li>
+              <li><i class="fas fa-check"></i> Exclusive evening tours</li>
+              <li><i class="fas fa-check"></i> 10% off at museum shop</li>
+            </ul>
+            <a href="#book-tickets" class="cta-button">Book Now</a>
+          </div>
+
+          <div class="ticket-card">
+            <div class="ticket-header">
+              <i class="fas fa-users"></i>
+              <h3>Family Package</h3>
+              <div class="price">$80</div>
+            </div>
+            <ul class="ticket-features">
+              <li><i class="fas fa-check"></i> Admission for 2 adults & 2 children</li>
+              <li><i class="fas fa-check"></i> Interactive family guide</li>
+              <li><i class="fas fa-check"></i> Children's activity pack</li>
+              <li><i class="fas fa-check"></i> Family photo opportunity</li>
+            </ul>
+            <a href="#book-tickets" class="cta-button">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Special Promotions -->
+    <section class="promotions">
+      <div class="container">
+        <h2>Special Offers</h2>
+        <div class="promotions-grid">
+          <div class="promo-card">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Student Discount</h3>
+            <p>20% off with valid student ID</p>
+          </div>
+          <div class="promo-card">
+            <i class="fas fa-clock"></i>
+            <h3>Early Bird Special</h3>
+            <p>15% off for morning visits (9-11 AM)</p>
+          </div>
+          <div class="promo-card">
+            <i class="fas fa-users"></i>
+            <h3>Group Rates</h3>
+            <p>Special rates for groups of 10+</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Media Gallery -->
+    <section class="media-gallery">
+      <div class="container">
+        <h2>Explore Our Museum</h2>
+        <div class="gallery-tabs">
+          <button class="gallery-tab active" data-tab="photos">Photos</button>
+          <button class="gallery-tab" data-tab="videos">Videos</button>
+          <button class="gallery-tab" data-tab="virtual">Virtual Tour</button>
+        </div>
+        <div class="gallery-content">
+          <div class="gallery-grid active" id="photos">
+            <div class="gallery-item">
+              <img src="Images/gallery/exhibit-1.jpg" alt="Ancient Egyptian Artifacts">
+              <div class="gallery-overlay">
+                <h4>Treasures of Tutankhamun</h4>
+                <p>Exclusive collection of royal artifacts</p>
+              </div>
+            </div>
+            <!-- Add more gallery items as needed -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section class="booking-section" id="book-tickets">
+      <div class="container">
+        <h2>Book Your Tickets</h2>
+        <form class="booking-form">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="ticket-type">Ticket Type</label>
+              <select id="ticket-type" required>
+                <option value="">Select ticket type</option>
+                <option value="general">General Admission</option>
+                <option value="premium">Premium Experience</option>
+                <option value="family">Family Package</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="visit-date">Visit Date</label>
+              <input type="date" id="visit-date" required>
+            </div>
+            <div class="form-group">
+              <label for="quantity">Number of Tickets</label>
+              <input type="number" id="quantity" min="1" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" required>
+            </div>
+          </div>
+          <button type="submit" class="cta-button">Proceed to Payment</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2>Stay Updated</h2>
+          <p>Subscribe to our newsletter for exclusive offers and updates about new exhibits.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email address" required>
+            <button type="submit" class="cta-button">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <img src="images/nav-bar/logo.png" alt="Egyptian Time Capsule Logo" class="footer-logo">
+          <p>Dedicated to preserving and sharing the rich history of ancient Egypt through immersive experiences and education.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="exhibits.html">Exhibits</a></li>
+            <li><a href="tickets.html">Tickets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-visit">
+          <h3>Visit Us</h3>
+          <p><i class="fas fa-map-marker-alt"></i> 123 Nile Street, Cairo, Egypt</p>
+          <p><i class="fas fa-phone"></i> +20 123 456 7890</p>
+          <p><i class="fas fa-envelope"></i> info@egyptiantimecapsule.com</p>
+        </div>
+        <div class="footer-hours">
+          <h3>Opening Hours</h3>
+          <p><span>Monday - Friday:</span> 9:00 AM - 6:00 PM</p>
+          <p><span>Saturday - Sunday:</span> 10:00 AM - 8:00 PM</p>
+          <a href="plan-your-visit.html" class="cta-button">Plan Your Visit</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Egyptian Time Capsule Museum. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Gallery tabs functionality
+      const galleryTabs = document.querySelectorAll('.gallery-tab');
+      const galleryContents = document.querySelectorAll('.gallery-grid');
+
+      galleryTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          // Remove active class from all tabs and contents
+          galleryTabs.forEach(t => t.classList.remove('active'));
+          galleryContents.forEach(c => c.classList.remove('active'));
+
+          // Add active class to clicked tab and corresponding content
+          tab.classList.add('active');
+          document.getElementById(tab.dataset.tab).classList.add('active');
+        });
+      });
+    });
+  </script>
+</body>
+</html>
